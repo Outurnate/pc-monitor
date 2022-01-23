@@ -1,0 +1,16 @@
+[package]
+name = "types"
+version = "0.1.0"
+edition = "2018"
+
+[profile.release]
+lto = true
+
+[dependencies]
+heapless = { version = "0.7.10", features = ["serde"] }
+serde = { version = "1.0.133", default-features = false, features = ["derive"] }
+systemstat = { version = "0.1.10", optional = true }
+
+[features]
+default = ["std"]
+std = ["serde/std", "systemstat"]
