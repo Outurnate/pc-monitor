@@ -1254,8 +1254,14 @@
     (path "/8d1de315-7b2f-4548-a6d3-9c55f1ee68df/e3cf0d27-9036-4ddb-b079-82d01384319a"
       (reference "J5") (unit 1) (value "Conn_2Rows-09Pins") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical")
     )
+    (path "/8d1de315-7b2f-4548-a6d3-9c55f1ee68df/d0d08bb7-2022-473d-a16e-f1a352aba138"
+      (reference "J6") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/8d1de315-7b2f-4548-a6d3-9c55f1ee68df/eec3d22c-eb06-4e45-b7c5-66ec0f44e48a"
+      (reference "J7") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Horizontal")
+    )
     (path "/8d1de315-7b2f-4548-a6d3-9c55f1ee68df/f5fdb899-6b89-480d-9e7a-7165d6d2cfb4"
-      (reference "M1") (unit 1) (value "Stepper_Motor_bipolar") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+      (reference "M1") (unit 1) (value "Stepper_Motor_bipolar") (footprint "local:auto_stepper_backing")
     )
     (path "/d05c439b-ac7d-4709-bc7b-5f0c82276bfa/43b5f58d-594a-4a53-abfc-e8fd3d55a396"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal")
